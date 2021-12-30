@@ -6,7 +6,8 @@ public class App{
 
   public static void main(String[] args){
 
-    // A simple demo of using the library to communicate with a service.
+    // A demo of using the library to communicate with a service.
+    // Start a TCP listener on port 5555, and run the code.
     try{
       SocketWrapper sock = new SocketWrapper("localhost", 5555, false);
       sock.write("What is your name? ");
