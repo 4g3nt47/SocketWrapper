@@ -4,5 +4,5 @@ SocketWrapper is a Java library for wrapping a java.net.Socket object for easier
 ## Build
 * $ git clone https://github.com/UmarAbdul01/SocketWrapper.git
 * $ cd SocketWrapper
-* $ javac SocketWrapper.java -d /your/class/path  # Compile. 
-* $ ./makedoc.sh doc/  # Generate javadoc.
+* $ ant jar
+* $ cp socketwrapper.jar /path/to/your/project/lib
